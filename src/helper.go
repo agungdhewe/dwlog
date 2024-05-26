@@ -8,8 +8,8 @@ import (
 )
 
 func resetPrefix() {
-	log.SetPrefix("")
-	log.SetFlags(log.Lmicroseconds | log.Lshortfile)
+	dwlog.Logger.SetPrefix("")
+	dwlog.Logger.SetFlags(log.Lmicroseconds | log.Lshortfile)
 }
 
 func setColor(colorCode string, text string) string {
@@ -17,7 +17,7 @@ func setColor(colorCode string, text string) string {
 }
 
 func getCaller() (string, int) {
-	if logger.Writer() == io.Discard {
+	if dwlog.Logger.Writer() == io.Discard {
 		return "", 0
 	}
 

@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	dlog := dwlog.New()
+	dwlog.New()
 
-	dlog.Info("ini adalah info")
-	dlog.Log("coba screen logging script")
-	dlog.Warning("ini adalah warning")
-	dlog.Error("ini log untuk error")
+	dwlog.Info("ini adalah info")
+	dwlog.Log("coba screen logging script")
+	dwlog.Warning("ini adalah warning")
+	dwlog.Error("ini log untuk error")
 }
