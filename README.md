@@ -11,4 +11,4 @@ Fungsi-fungsi tersebut digunakan lebih untuk keperluan logging di screen, dengan
     dlog.Error("ini log untuk error")
     
 ### Contoh Tampilan saat running
-![contoh tampilan](https://transfashionindonesia.com/wp-content/uploads/2023/12/AIGNER-Gift-Ideas-2023-1-selected-400x400-1.jpg)
+![contoh tampilan](https://github.com/agungdhewe/dwlog/blob/main/ss.png)
