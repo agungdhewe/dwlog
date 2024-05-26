@@ -1,7 +1,7 @@
 package main
 
 import (
-	dwlog "github.com/agungdhewe/dwlog/src"
+	dwlog "github.com/agungdhewe/dwlog"
 )
 
 func main() {
