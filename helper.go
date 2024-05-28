@@ -21,7 +21,7 @@ func getCaller() (string, int) {
 		return "", 0
 	}
 
-	_, callerfile, lineno, ok := runtime.Caller(2)
+	_, callerfile, lineno, ok := runtime.Caller(dwlog.callerstack)
 	if !ok {
 		return "", 0
 	}

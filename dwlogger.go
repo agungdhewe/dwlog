@@ -6,7 +6,8 @@ import (
 )
 
 type DwLogger struct {
-	Logger *log.Logger
+	Logger      *log.Logger
+	callerstack int
 }
 
 func (dwl *DwLogger) Info(msg string, args ...any) {
